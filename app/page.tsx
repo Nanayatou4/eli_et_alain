@@ -192,10 +192,10 @@ export default function Home() {
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="auto"
           aria-hidden="true"
         >
-          <source src="/images/background_home-optimized.mp4" type="video/mp4" />
+          <source src="/images/background_home-optimized" type="video/mp4" />
         </video>
         <div className="hero-shade" />
 
@@ -509,7 +509,7 @@ export default function Home() {
                 <p>En face de Polimed, Mbour<br />Route de l’Hôpital, Mbour, Sénégal</p>
                 <a
                   className="map-link"
-                  href="https://www.google.com/maps?q=14.421486700000003,-16.991409941308593"
+                  href="https://www.google.com/maps/place/Chez+Ely/@14.4213376,-16.9863962,17z/data=!4m8!3m7!1s0xec18b09f4e36d79:0x59acd25588c4835a!8m2!3d14.4213376!4d-16.9863962!9m1!1b1!16s%2Fg%2F11h6bzrlyq"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -557,7 +557,7 @@ export default function Home() {
 
         <div className="footer-contact">
           <h2>Contact</h2>
-          <a href="https://www.google.com/maps?q=14.421486700000003,-16.991409941308593" target="_blank" rel="noreferrer">
+          <a href="https://www.google.com/maps/place/Chez+Ely/@14.4213376,-16.9863962,17z/data=!4m8!3m7!1s0xec18b09f4e36d79:0x59acd25588c4835a!8m2!3d14.4213376!4d-16.9863962!9m1!1b1!16s%2Fg%2F11h6bzrlyq" target="_blank" rel="noreferrer">
             <span aria-hidden="true">⌖</span> Route de l’Hôpital,<br />Mbour, Sénégal
           </a>
           <a href="tel:+221775501742"><span aria-hidden="true">☎</span> 77 550 17 42</a>
