@@ -195,7 +195,7 @@ export default function Home() {
           preload="auto"
           aria-hidden="true"
         >
-          <source src="/images/background_home-optimized" type="video/mp4" />
+          <source src="/images/background_home-optimized.mp4" type="video/mp4" />
         </video>
         <div className="hero-shade" />
 
